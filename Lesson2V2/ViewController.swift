@@ -9,11 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var colorView: UIStackView!
+    @IBOutlet var numberView: UIStackView!
+    @IBOutlet var scrollSlider: UIStackView!
+    @IBOutlet var allStack: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
 
-
+    @IBAction func redSliderAction() {
+    }
+    @IBAction func greenSliderAction() {
+    }
+    @IBAction func blueSliderAction() {
+    }
 }
 
