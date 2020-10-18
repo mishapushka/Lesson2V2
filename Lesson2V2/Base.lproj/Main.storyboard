@@ -20,8 +20,7 @@
                                 <rect key="frame" x="16" y="20" width="343" height="167"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="167" id="BMj-Vf-Eil"/>
-                                    <constraint firstAttribute="width" constant="343" id="BsX-NB-oDZ"/>
+                                    <constraint firstAttribute="height" constant="167" id="9z8-7x-1Us"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Fbm-yr-6dN">
@@ -76,37 +75,33 @@
                                     <constraint firstAttribute="width" constant="51" id="srz-eF-CgN"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="aZe-Df-gPR">
-                                <rect key="frame" x="137.5" y="227" width="221.5" height="106"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="JVc-Rr-0g7">
+                                <rect key="frame" x="137.5" y="220" width="221.5" height="106"/>
                                 <subviews>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="9M0-d0-DH6">
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="x1d-zO-1m8">
                                         <rect key="frame" x="-2" y="0.0" width="225.5" height="31"/>
                                     </slider>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Wq5-WO-n6z">
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="lQg-EJ-WdB">
                                         <rect key="frame" x="-2" y="38" width="225.5" height="31"/>
                                     </slider>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mub-Zy-9Xu">
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="drN-tp-MZk">
                                         <rect key="frame" x="-2" y="76" width="225.5" height="31"/>
                                     </slider>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="208" id="Ecp-Fa-ia2"/>
-                                    <constraint firstAttribute="height" constant="106" id="J4A-Kh-iZR"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.45380719069999997" green="0.65990805050000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="aZe-Df-gPR" firstAttribute="top" secondItem="KZ6-4w-ni7" secondAttribute="bottom" constant="40" id="9Kt-py-sW3"/>
+                            <constraint firstItem="JVc-Rr-0g7" firstAttribute="top" secondItem="KZ6-4w-ni7" secondAttribute="bottom" constant="33" id="6cR-k9-Qd9"/>
+                            <constraint firstItem="JVc-Rr-0g7" firstAttribute="leading" secondItem="Fbm-yr-6dN" secondAttribute="trailing" constant="16" id="EB6-Zd-t4U"/>
                             <constraint firstItem="KZ6-4w-ni7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="GRz-Vp-11K"/>
                             <constraint firstItem="fdB-pD-Ahc" firstAttribute="top" secondItem="KZ6-4w-ni7" secondAttribute="bottom" constant="40" id="I0B-xE-BJL"/>
                             <constraint firstItem="Fbm-yr-6dN" firstAttribute="leading" secondItem="fdB-pD-Ahc" secondAttribute="trailing" constant="13" id="Urs-Hs-Zrw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aZe-Df-gPR" secondAttribute="trailing" constant="16" id="WpZ-vX-5u3"/>
-                            <constraint firstItem="aZe-Df-gPR" firstAttribute="leading" secondItem="Fbm-yr-6dN" secondAttribute="trailing" constant="16" id="XhK-pA-w5h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KZ6-4w-ni7" secondAttribute="trailing" constant="16" id="W88-mX-aoA"/>
                             <constraint firstItem="KZ6-4w-ni7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="YwN-re-6Uw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KZ6-4w-ni7" secondAttribute="trailing" constant="16" id="ZJe-Q5-etR"/>
                             <constraint firstItem="Fbm-yr-6dN" firstAttribute="top" secondItem="KZ6-4w-ni7" secondAttribute="bottom" constant="40" id="aL2-AK-8DN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JVc-Rr-0g7" secondAttribute="trailing" constant="16" id="hQw-Xz-pvy"/>
                             <constraint firstItem="fdB-pD-Ahc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="wqj-PW-unV"/>
                         </constraints>
                     </view>
